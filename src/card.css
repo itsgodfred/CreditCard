@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+.Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  font-family: "Red Hat Display", sans-serif;
+}
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  padding: 2rem 0;
+  box-shadow: 0px 0px 10px -1px gray;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 3rem;
+}
+form > label {
+  text-align: left;
+  font-size: 17px;
+  color: rgb(83, 83, 83);
+  width: 74%;
+}
+input {
+  width: 70%;
+  margin-bottom: 2rem;
+  padding: 0.4rem;
+  color: white;
+  font-size: 16px;
+  border: 1.7px solid rgb(175, 175, 175);
+  border-radius: 4px;
+  color: rgb(172, 172, 172);
+}
+.rccs {
+  margin: 0 1rem !important;
+  width: 390px !important;
+}
+.rccs__card {
+  height: 252.872997856px !important;
+  width: 390px !important;
+}
+button {
+  border: none;
+  outline: none;
+  padding: 1rem 1rem;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: rgb(73, 147, 212);
+  color: white;
+  cursor: pointer;
+  width: 74%;
+}
+#logo {
+  display: flex;
+  justify-content: space-between;
+  width: 74%;
+  align-items: end;
+  font-size: 17px;
+  color: rgb(83, 83, 83);
+}
+#logo > img {
+  width: 7rem;
+}
+form > h3 {
+  text-align: left;
+  width: 74%;
+  padding-bottom: 2rem;
+  font-size: 20px;
+  color: rgb(41, 41, 41);
+  margin-top: 0;
+}
